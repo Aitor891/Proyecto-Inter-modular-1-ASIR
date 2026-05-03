@@ -64,7 +64,7 @@ Además, se han aplicado estilos CSS para mejorar la presentación visual.
 
 ## Evidencia de validación
 
-La validación del XML se ha documentado mediante capturas incluidas en la carpeta `/docs`, donde se puede observar:
+La validación del XML se ha documentado mediante capturas incluidas en la carpeta /docs, donde se puede observar:
 
 * Validación correcta del XML frente al DTD
 * Ejemplo de error en un XML incorrecto (opcional)
