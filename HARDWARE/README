@@ -1,1 +1,98 @@
+# README – Infraestructura Hardware
 
+## Descripción general
+
+La infraestructura hardware del proyecto ha sido diseñada para proporcionar un entorno estable, eficiente y preparado para un uso profesional. Se han seleccionado componentes que permiten gestionar tanto los servicios internos de la empresa como la conectividad entre los distintos dispositivos.
+
+El objetivo principal es garantizar rendimiento, fiabilidad y capacidad de ampliación futura.
+
+## Servidor principal
+
+El sistema se basa en un servidor físico encargado de alojar los servicios principales de la empresa.
+
+Se ha seleccionado un servidor tipo torre, como el Dell PowerEdge T160, equipado con:
+
+- Procesador Intel Xeon  
+- 16 GB de memoria RAM  
+- Disco duro de 2 TB  
+
+### Función
+
+Este servidor se encarga de:
+
+- Gestionar la base de datos  
+- Ejecutar aplicaciones internas  
+- Almacenar información de la empresa  
+- Proporcionar servicios a los equipos de la red  
+
+## Sistema de almacenamiento
+
+Para el almacenamiento de datos se utiliza un disco duro interno de alta capacidad, como el HPE 2TB HDD 7200rpm SATA.
+
+### Características
+
+- Capacidad de 2 TB  
+- Velocidad de 7200 rpm  
+- Interfaz SATA (6 Gbit/s)  
+
+### Función
+
+- Almacenamiento de datos del sistema  
+- Guardado de información de usuarios  
+- Soporte para copias de seguridad  
+
+## Equipos de usuario
+
+La infraestructura incluye varios equipos de usuario distribuidos por los distintos departamentos de la empresa.
+
+### Función
+
+- Acceso a aplicaciones  
+- Gestión de datos  
+- Comunicación interna  
+
+Cada departamento dispone de al menos dos equipos, lo que permite simular un entorno real de trabajo.
+
+## Dispositivos de red
+
+Para la conectividad del sistema se han utilizado distintos dispositivos de red:
+
+### Router
+
+Encargado de interconectar las distintas redes y permitir la comunicación entre VLANs.
+
+### Switches
+
+Se utilizan varios switches para distribuir la red:
+
+- Switch principal (core)  
+- Switch de distribución  
+- Switches de acceso por planta  
+
+### Función
+
+- Conectar dispositivos dentro de la red  
+- Segmentar el tráfico mediante VLANs  
+- Optimizar el rendimiento de la red  
+
+## Conectividad inalámbrica
+
+Se ha incluido un punto de acceso inalámbrico que permite la conexión de dispositivos sin cable.
+
+### Función
+
+- Facilitar la movilidad dentro de la empresa  
+- Permitir acceso a empleados  
+- Ofrecer red para invitados  
+
+## Escalabilidad del sistema
+
+La infraestructura hardware ha sido diseñada teniendo en cuenta la posibilidad de ampliación futura, permitiendo:
+
+- Añadir nuevos equipos  
+- Incrementar la capacidad de almacenamiento  
+- Incorporar nuevos servicios  
+
+## Conclusión
+
+La infraestructura hardware implementada proporciona una base sólida para el funcionamiento del sistema, garantizando estabilidad, rendimiento y capacidad de crecimiento. La combinación de servidor, almacenamiento, equipos de usuario y dispositivos de red permite simular un entorno empresarial realista y funcional.
