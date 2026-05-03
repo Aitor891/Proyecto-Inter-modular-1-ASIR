@@ -5,7 +5,7 @@ Este repositorio contiene el desarrollo completo del Proyecto Intermodular del c
 
 El objetivo del proyecto es diseñar, implementar y documentar una infraestructura informática completa, abarcando diferentes áreas como sistemas, redes, bases de datos, cloud y lenguajes de marcas.
 
-## Módulos incluidos
+Módulos incluidos
 
 - Sistemas Informáticos
 - Fundamentos de Computación en la Nube (MPO)
