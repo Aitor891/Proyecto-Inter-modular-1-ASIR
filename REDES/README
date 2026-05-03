@@ -1,1 +1,28 @@
+# Planificación y Administración de Redes
 
+Descripción
+
+En este módulo se ha diseñado e implementado la infraestructura de red de la empresa utilizando Cisco Packet Tracer.
+
+La red está estructurada en dos plantas con distintos departamentos, segmentados mediante VLANs para mejorar la seguridad y organización.
+
+Contenido
+
+- Archivo de simulación (.pkt)
+- Documento PDF con:
+  - Topología de red
+  - Direccionamiento IP
+  - Configuraciones
+  - Pruebas de funcionamiento
+
+Características principales
+
+- Segmentación mediante VLANs
+- Enrutamiento inter-VLAN (Router-on-a-stick)
+- Configuración de DHCP
+- Aplicación de ACLs para control de acceso
+- Red inalámbrica para empleados e invitados
+
+Objetivo
+
+Diseñar una red segura, escalable y funcional, simulando un entorno empresarial real.
