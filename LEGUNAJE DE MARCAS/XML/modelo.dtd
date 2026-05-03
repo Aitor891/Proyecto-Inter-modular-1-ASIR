@@ -1,0 +1,29 @@
+<!ELEMENT reservas (clientes, clases, reservas_lista)>
+<!ATTLIST reservas fecha CDATA #REQUIRED>
+
+
+<!ELEMENT clientes (cliente+)>
+
+<!ELEMENT cliente (nombre, email)>
+<!ATTLIST cliente id ID #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+
+<!ELEMENT clases (clase+)>
+
+<!ELEMENT clase (nombre, horario)>
+<!ATTLIST clase id ID #REQUIRED>
+
+<!ELEMENT horario (#PCDATA)>
+
+
+<!ELEMENT reservas_lista (reserva+)>
+
+<!ELEMENT reserva EMPTY>
+<!ATTLIST reserva 
+    id ID #REQUIRED
+    cliente IDREF #REQUIRED
+    clase IDREF #REQUIRED
+    estado (activa | cancelada) #REQUIRED>

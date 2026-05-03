@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="transform.xsl"?>
+
+<!DOCTYPE reservas SYSTEM "modelo.dtd">
+
+<reservas fecha="2024-06-01">
+
+    <clientes>
+        <cliente id="c1">
+            <nombre>Juan Pérez</nombre>
+            <email>juan@olimpoh.com</email>
+        </cliente>
+        <cliente id="c2">
+            <nombre>María López</nombre>
+            <email>maria@olimpoh.com</email>
+        </cliente>
+    </clientes>
+
+    <clases>
+        <clase id="cl1">
+            <nombre>Spinning</nombre>
+            <horario>10:00</horario>
+        </clase>
+        <clase id="cl2">
+            <nombre>Yoga</nombre>
+            <horario>18:00</horario>
+        </clase>
+        
+    </clases>
+
+    <reservas_lista>
+        <reserva id="r1" cliente="c1" clase="cl1" estado="activa"/>
+        <reserva id="r2" cliente="c2" clase="cl2" estado="activa"/>
+        <reserva id="r3" cliente="c1" clase="cl2" estado="cancelada"/>
+    </reservas_lista>
+
+</reservas>
