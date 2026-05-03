@@ -1,0 +1,49 @@
+{
+  "reservas": {
+    "fecha": "2024-06-01",
+    "clientes": [
+      {
+        "id": "c1",
+        "nombre": "Juan Pérez",
+        "email": "juan@olimpoh.com"
+      },
+      {
+        "id": "c2",
+        "nombre": "María López",
+        "email": "maria@olimpoh.com"
+      }
+    ],
+    "clases": [
+      {
+        "id": "cl1",
+        "nombre": "Spinning",
+        "horario": "10:00"
+      },
+      {
+        "id": "cl2",
+        "nombre": "Yoga",
+        "horario": "18:00"
+      }
+    ],
+    "reservas_lista": [
+      {
+        "id": "r1",
+        "cliente": "c1",
+        "clase": "cl1",
+        "estado": "activa"
+      },
+      {
+        "id": "r2",
+        "cliente": "c2",
+        "clase": "cl2",
+        "estado": "activa"
+      },
+      {
+        "id": "r3",
+        "cliente": "c1",
+        "clase": "cl2",
+        "estado": "cancelada"
+      }
+    ]
+  }
+}
