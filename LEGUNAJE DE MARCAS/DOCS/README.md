@@ -4,13 +4,12 @@
 
 El archivo XML desarrollado representa la gestión de reservas dentro del sistema del proyecto. En concreto, se modelan tres tipos principales de información:
 
-* **Clientes**: incluyen identificador, nombre y correo electrónico.
-* **Clases**: contienen información sobre las actividades disponibles, como nombre y horario.
-* **Reservas**: relacionan clientes con clases, indicando el estado de la reserva (activa o cancelada).
+* Clientes: incluyen identificador, nombre y correo electrónico.
+* Clases: contienen información sobre las actividades disponibles, como nombre y horario.
+* Reservas: relacionan clientes con clases, indicando el estado de la reserva (activa o cancelada).
 
 La estructura del XML está organizada de forma jerárquica, comenzando por el elemento raíz `<reservas>`, que contiene los distintos bloques de información. Además, se utilizan atributos de tipo **ID** e **IDREF** para relacionar correctamente clientes, clases y reservas, evitando duplicidades y garantizando coherencia en los datos.
 
----
 
 ## 2. Validación mediante DTD
 
@@ -25,17 +24,13 @@ El archivo XML se valida mediante un DTD externo (`modelo.dtd`), el cual define:
 
 Se puede validar el XML utilizando el siguiente comando:
 
-```bash
 xmllint --noout --dtdvalid xml/modelo.dtd xml/datos.xml
-```
 
 Si el archivo es correcto, no se mostrará ningún error. En caso contrario, se indicará el problema detectado (estructura incorrecta, atributos inválidos, etc.).
 
 ### Validación mediante editor
 
 También se puede validar utilizando editores como Visual Studio Code u otros validadores XML online, los cuales muestran errores en tiempo real.
-
----
 
 ## 3. Transformación XSLT a HTML
 
@@ -50,9 +45,7 @@ La transformación se puede visualizar de dos formas:
 
 El XML incluye la siguiente instrucción de procesamiento:
 
-```xml
 <?xml-stylesheet type="text/xsl" href="../xml/transform.xsl"?>
-```
 
 Esto permite que el navegador aplique automáticamente la transformación.
 
@@ -67,7 +60,6 @@ El HTML generado incluye:
 
 Además, se han aplicado estilos CSS para mejorar la presentación visual.
 
----
 
 ## 4. Evidencia de validación
 
@@ -85,7 +77,6 @@ También se incluye una captura del HTML generado tras aplicar la transformació
 
 * `transform_html.png`
 
----
 
 ## 5. Integración con el proyecto
 
@@ -93,15 +84,14 @@ El XML desarrollado no es un elemento aislado, sino que forma parte del sistema 
 
 En concreto, se utiliza como:
 
-* **Formato de exportación de datos** desde la base de datos del sistema
-* **Representación estructurada** de la información de reservas
-* **Generación de informes** mediante XSLT
+* Formato de exportación de datos desde la base de datos del sistema
+* Representación estructurada de la información de reservas
+* Generación de informes mediante XSLT
 
 El archivo JSON incluido en el proyecto representa la misma información en formato alternativo, facilitando su uso en aplicaciones web o APIs.
 
 De esta forma, el XML se integra dentro del flujo del sistema como un formato estándar para intercambio y visualización de datos.
 
----
 
 ## Conclusión
 
