@@ -1,1 +1,41 @@
+# Base de Datos del Centro de Alto Rendimiento OlimPoh
+
+Este proyecto es sobre la base de datos del Centro de Alto Rendimiento OlimPoh. Aquí encontrarás cómo se diseñó y se implementó la base de datos.
+
+## Lo que hay aquí
+
+- Análisis de los datos del sistema
+
+- Cómo se diseñó la base de datos
+
+- Un diagrama que muestra las relaciones entre las diferentes partes
+
+- Los scripts que se usaron para crear la base de datos
+
+- Cómo se insertaron los datos de prueba
+
+- Consultas para obtener información de la base de datos
+
+- Tareas básicas para administrar la base de datos
+
+## Detalles del proyecto
+
+La base de datos se hizo para gestionar la información del gimnasio. Esto incluye información sobre los clientes, los entrenadores, las clases, las reservas y los pagos.
+
+Se utilizó un modelo relacional para asegurarse de que los datos sean correctos y consistentes. Esto significa que se usaron claves primarias y foráneas para conectar las diferentes partes de la base de datos.
+
+## Herramientas utilizadas
+
+- SQL para crear y gestionar la base de datos
+
+- MySQL para almacenar los datos
+
+- draw.io para crear el diagrama de las relaciones entre las diferentes partes
+
+## Quién lo hizo
+
+Aitor Hernández Alonso 1ASIR ONLINE
+
+
+
 
