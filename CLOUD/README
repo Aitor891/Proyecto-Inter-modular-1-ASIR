@@ -1,1 +1,24 @@
+# Fundamentos de Computación en la Nube
 
+## Descripción
+
+En este módulo se ha diseñado una arquitectura cloud básica para el despliegue del sistema.
+
+## Contenido
+
+- Análisis del proveedor cloud
+- Arquitectura propuesta
+- Servicios utilizados
+- Estimación de costes
+
+## Características principales
+
+- Uso de proveedor cloud (AWS/Azure/Google Cloud)
+- Aplicación desplegada en máquina virtual
+- Base de datos gestionada
+- Sistema de copias de seguridad en la nube
+- Acceso mediante Internet
+
+## Objetivo
+
+Comprender cómo se desplegaría un sistema en un entorno cloud profesional.
