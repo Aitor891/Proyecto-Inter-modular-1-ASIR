@@ -7,12 +7,12 @@ El objetivo del proyecto es diseñar, implementar y documentar una infraestructu
 
 Módulos incluidos
 
-- Sistemas Informáticos
-- Fundamentos de Computación en la Nube (MPO)
-- Planificación y Administración de Redes
-- Gestión de Bases de Datos
-- Lenguajes de Marcas
-- Implantación de Sistemas Operativos
+Sistemas Informáticos
+Fundamentos de Computación en la Nube (MPO)
+Planificación y Administración de Redes
+Gestión de Bases de Datos
+Lenguajes de Marcas
+Implantación de Sistemas Operativos
 
 Cada módulo incluye su documentación correspondiente dentro de su carpeta.
 
@@ -22,8 +22,8 @@ Simular un entorno profesional donde se diseñe una infraestructura completa, ap
 
 Tecnologías utilizadas
 
-- Cisco Packet Tracer
-- MySQL / XAMPP
-- XML / DTD / XSLT / JSON
-- Sistemas Linux y Windows
-- Servicios en la nube (AWS/Azure conceptual)
+Cisco Packet Tracer
+MySQL / XAMPP
+XML / DTD / XSLT / JSON
+Sistemas Linux y Windows
+Servicios en la nube (AWS/Azure conceptual)
