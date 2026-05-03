@@ -9,12 +9,12 @@ El archivo XML desarrollado representa la gestión de reservas dentro del sistem
 * Clases: contienen información sobre las actividades disponibles, como nombre y horario.
 * Reservas: relacionan clientes con clases, indicando el estado de la reserva (activa o cancelada).
 
-La estructura del XML está organizada de forma jerárquica, comenzando por el elemento raíz `<reservas>`, que contiene los distintos bloques de información. Además, se utilizan atributos de tipo **ID** e **IDREF** para relacionar correctamente clientes, clases y reservas, evitando duplicidades y garantizando coherencia en los datos.
+La estructura del XML está organizada de forma jerárquica, comenzando por el elemento raíz reservas, que contiene los distintos bloques de información. Además, se utilizan atributos de tipo ID e IDREF para relacionar correctamente clientes, clases y reservas, evitando duplicidades y garantizando coherencia en los datos.
 
 
 ## Validación mediante DTD
 
-El archivo XML se valida mediante un DTD externo (`modelo.dtd`), el cual define:
+El archivo XML se valida mediante un DTD externo (modelo.dtd), el cual define:
 
 * La estructura de los elementos
 * Las relaciones entre ellos
@@ -35,7 +35,7 @@ También se puede validar utilizando editores como Visual Studio Code u otros va
 
 ## Transformación XSLT a HTML
 
-Se ha desarrollado un archivo XSLT (`transform.xsl`) que permite transformar el XML en un documento HTML visualmente estructurado.
+Se ha desarrollado un archivo XSLT (transform.xsl) que permite transformar el XML en un documento HTML visualmente estructurado.
 
 ### Ejecución
 
@@ -71,12 +71,12 @@ La validación del XML se ha documentado mediante capturas incluidas en la carpe
 
 Archivos incluidos:
 
-* `validacion_dtd.png`
-* `error_dtd.png` (opcional)
+* validacion_dtd.png
+* error_dtd.png (opcional)
 
 También se incluye una captura del HTML generado tras aplicar la transformación XSLT:
 
-* `transform_html.png`
+* transform_html.png
 
 
 ## Integración con el proyecto
