@@ -1,6 +1,6 @@
-# Informe – Lenguajes de Marcas
+# Informe – Lenguajes de Marcas Aitor Hernández Alonso 1º ASIR ONLINE
 
-## 1. Datos representados en el XML
+## Datos representados en el XML
 
 El archivo XML desarrollado representa la gestión de reservas dentro del sistema del proyecto. En concreto, se modelan tres tipos principales de información:
 
@@ -11,7 +11,7 @@ El archivo XML desarrollado representa la gestión de reservas dentro del sistem
 La estructura del XML está organizada de forma jerárquica, comenzando por el elemento raíz `<reservas>`, que contiene los distintos bloques de información. Además, se utilizan atributos de tipo **ID** e **IDREF** para relacionar correctamente clientes, clases y reservas, evitando duplicidades y garantizando coherencia en los datos.
 
 
-## 2. Validación mediante DTD
+## Validación mediante DTD
 
 El archivo XML se valida mediante un DTD externo (`modelo.dtd`), el cual define:
 
@@ -32,7 +32,7 @@ Si el archivo es correcto, no se mostrará ningún error. En caso contrario, se 
 
 También se puede validar utilizando editores como Visual Studio Code u otros validadores XML online, los cuales muestran errores en tiempo real.
 
-## 3. Transformación XSLT a HTML
+## Transformación XSLT a HTML
 
 Se ha desarrollado un archivo XSLT (`transform.xsl`) que permite transformar el XML en un documento HTML visualmente estructurado.
 
@@ -61,7 +61,7 @@ El HTML generado incluye:
 Además, se han aplicado estilos CSS para mejorar la presentación visual.
 
 
-## 4. Evidencia de validación
+## Evidencia de validación
 
 La validación del XML se ha documentado mediante capturas incluidas en la carpeta `/docs`, donde se puede observar:
 
@@ -78,9 +78,9 @@ También se incluye una captura del HTML generado tras aplicar la transformació
 * `transform_html.png`
 
 
-## 5. Integración con el proyecto
+## Integración con el proyecto
 
-El XML desarrollado no es un elemento aislado, sino que forma parte del sistema del proyecto.
+El XML desarrollado no es un elemento aislado sino que forma parte del sistema del proyecto.
 
 En concreto, se utiliza como:
 
@@ -95,5 +95,6 @@ De esta forma, el XML se integra dentro del flujo del sistema como un formato es
 
 ## Conclusión
 
-El uso de XML junto con DTD, XSLT y JSON permite gestionar información estructurada de forma eficiente, validada y reutilizable. Esta implementación refleja un uso realista de tecnologías de marcado en entornos profesionales.
+La combinación de XML con DTD, XSLT y JSON posibilita una gestión eficiente, validada y reutilizable de la información estructurada. Esta implementación muestra un empleo realista de las tecnologías de marcado en ambientes profesionales. 
+
 
